@@ -1,0 +1,24 @@
+# SO/Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.log
+
+# VS Code
+.vscode/
+.history/
+
+# Node/Build (si llegas a usar)
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+
+# Frontend común
+*.map
+
+# Mac (por si mueves archivos desde mac)
+.DS_Store
