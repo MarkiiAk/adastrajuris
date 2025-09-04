@@ -4,94 +4,93 @@
 
 /* Tema por defecto: oscuro */
 :root,
-:root[data-theme="dark"]{
+:root[data-theme="dark"] {
   /* Core surfaces */
-  --color-bg: #0f131b;
-  --color-surface: #141a22;
-  --color-muted: #1a202b;
-  --color-border: #242c3a;
+  --color-bg: #0a0f15;
+  --color-surface: #101624;
+  --color-muted: #162033;
+  --color-border: #1f2a40;
 
   /* Text */
-  --color-text: #e8e9ee;
-  --color-text-subtle: #aab3c2;
+  --color-text: #f1f5fb;
+  --color-text-subtle: #9aa7bd;
 
-  /* Accent (antes “gold”) */
-  --color-accent: #c5a15a;
-  --color-accent-2: #9d8147;
+  /* Accent (azul institucional) */
+  --color-accent: #0057b7;
+  --color-accent-2: #003c82;
 
   /* Neutrales auxiliares */
   --color-neutral-50: #0c1118;
-  --color-neutral-100: #111111;
-  --color-neutral-200: #c9d1e0;
-  --color-neutral-300: #cfd6e6;
-  --color-neutral-400: #e8e0cf;
+  --color-neutral-100: #111820;
+  --color-neutral-200: #c0c9d9;
+  --color-neutral-300: #d2dae6;
+  --color-neutral-400: #e8ecf5;
 
   /* Estados */
   --color-success: #2f9e44;
   --color-success-contrast: #a6f4c5;
   --color-info: #1e78e6;
   --color-info-contrast: #b7d7ff;
-  --color-warning: #f7e7c2;
+  --color-warning: #e0c17c;
 
   /* Overlays y sombras */
-  --overlay-header: rgba(15,19,27,.72);
-  --overlay-header-strong: rgba(15,19,27,.9);
-  --overlay-accent-thin: rgba(197,161,90,.08);
-  --overlay-accent-soft: rgba(197,161,90,.15);
-  --shadow-elev: 0 10px 30px rgba(0,0,0,.4);
-  --shadow-elev-strong: 0 12px 40px rgba(0,0,0,.5);
-  --border-alpha: rgba(0,0,0,.25);
+  --overlay-header: rgba(10,15,21,.72);
+  --overlay-header-strong: rgba(10,15,21,.9);
+  --overlay-accent-thin: rgba(0,87,183,.12);
+  --overlay-accent-soft: rgba(0,87,183,.22);
+  --shadow-elev: 0 10px 30px rgba(0,0,0,.45);
+  --shadow-elev-strong: 0 14px 42px rgba(0,0,0,.55);
+  --border-alpha: rgba(255,255,255,.08);
 
-  /* Radii y layout */
+  /* Layout */
   --radius: 18px;
   --radius-sm: 12px;
   --container: 1200px;
 
   /* Hero */
-  --linear-gradient: rgba(255,255,255,.82)
+  --linear-gradient: rgba(0,87,183,.25);
 }
 
-/* Tema claro (override de tokens) */
-:root[data-theme="light"]{
+:root[data-theme="light"] {
   /* Superficies */
-  --color-bg: #f7f9fc;          
+  --color-bg: #f7f9fc;
   --color-surface: #ffffff;
-  --color-muted: #f3f5f9;       
-  --color-border: #d1d9e6;      
+  --color-muted: #eef2f7;
+  --color-border: #d1d9e6;
 
   /* Texto */
-  --color-text: #0c1118;        
-  --color-text-subtle: #292f38; 
+  --color-text: #0c1118;
+  --color-text-subtle: #2a313c;
 
-  /* Acento */
-  --color-accent: #c5a15a;
-  --color-accent-2: #9d8147;
+  /* Accent (azul institucional) */
+  --color-accent: #0057b7;
+  --color-accent-2: #003c82;
 
-  /* Neutrales auxiliares*/
-  --color-neutral-50: #f6f8fb;  
-  --color-neutral-100: #ffffff; 
+  /* Neutrales auxiliares */
+  --color-neutral-50: #f9fbfd;
+  --color-neutral-100: #ffffff;
   --color-neutral-200: #64748b;
-  --color-neutral-300: #7b8796;
-  --color-neutral-400: #6b604b; 
+  --color-neutral-300: #828b96;
+  --color-neutral-400: #475569;
 
   /* Estados */
   --color-success: #2f9e44;
-  --color-success-contrast: #175c33; 
+  --color-success-contrast: #176338;
   --color-info: #1e78e6;
   --color-info-contrast: #0f3f8c;
-  --color-warning: #c7ab6d;    
-  
-  /* Overlays y sombras (mejor separación en claro) */
-  --overlay-header: rgba(255,255,255,.86);       /* antes .8 */
-  --overlay-header-strong: rgba(255,255,255,.95);/* antes .92 */
-  --overlay-accent-thin: rgba(197,161,90,.16);   /* antes .12 -> resalta hover en nav */
-  --overlay-accent-soft: rgba(197,161,90,.26);   /* antes .24 */
-  --shadow-elev: 0 8px 24px rgba(15,17,22,.12);  /* sombra con tinte neutro oscuro */
-  --shadow-elev-strong: 0 12px 36px rgba(15,17,22,.16);
-  --border-alpha: rgba(15,17,22,.12);            /* antes rgba(0,0,0,.15) */
+  --color-warning: #b38d4a;
 
-    /* Hero */
-  --linear-gradient: rgba(155,155,155,.82)
+  /* Overlays y sombras */
+  --overlay-header: rgba(255,255,255,.9);
+  --overlay-header-strong: rgba(255,255,255,.96);
+  --overlay-accent-thin: rgba(0,87,183,.12);
+  --overlay-accent-soft: rgba(0,87,183,.22);
+  --shadow-elev: 0 8px 22px rgba(15,17,22,.10);
+  --shadow-elev-strong: 0 12px 34px rgba(15,17,22,.14);
+  --border-alpha: rgba(15,17,22,.12);
+
+  /* Hero */
+  --linear-gradient: rgba(202, 235, 255, 0.608);
 }
 
 
