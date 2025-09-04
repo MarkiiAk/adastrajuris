@@ -4,11 +4,11 @@
   "nav": {
     "nav1": "Inicio",
     "nav2": "Quiénes somos",
-    "nav3": "Misión & Visión",
-    "nav4": "Valores",
-    "nav5": "Equipo",
-    "nav6": "Servicios",
-    "nav7": "Cobertura",
+    "nav3": "Especialidades",
+    "nav4": "Servicios",
+    "nav5": "Valores",
+    "nav6": "Cobertura",
+    "nav7": "Opiniones",
     "nav8": "Contacto"
   },
 
@@ -20,7 +20,7 @@
     "numbadge1": 10,
     "badge1": "años de experiencia",
     "badge2": "áreas de especialidad",
-    "badge3": "presencia nacional",
+    "badge3": " ciudades con presencia en México",
     "highlightTitle": "Áreas de Especialidad",
     "highlightSubtitle": "Cobertura legal integral en las principales ramas del Derecho",
     "highlightMeta1": "Derecho Laboral: audiencias, sindicatos, contratos colectivos y defensa patronal.",

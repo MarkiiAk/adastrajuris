@@ -183,6 +183,7 @@
 })();
 
 // Prefill contacto desde "Ver detalles" y scroll a #contacto
+// Prefill contacto desde "Ver detalles" y scroll a #contacto
 (function(){
   const list = document.querySelector('.properties');
   const header = document.getElementById('site-header');
@@ -210,19 +211,29 @@
     const link = e.target.closest('a.link');
     if(!link) return;
 
-    // Evita navegación del "#" y maneja todo aquí
     e.preventDefault();
 
     const card = link.closest('.prop');
     const textarea = document.getElementById('msg');
+    const sendBtn = document.querySelector('#contacto button[type="submit"], #contacto .formBtn');
+
     if(textarea){
       textarea.value = buildMensaje(card);
-      textarea.focus({ preventScroll: true });
+
+      // Detecta si es móvil/touch
+      if('ontouchstart' in window){
+        // En móviles → focus en el botón para evitar teclado
+        sendBtn?.focus();
+      } else {
+        // En desktop → focus en el textarea
+        textarea.focus({ preventScroll: true });
+      }
     }
 
     scrollToContacto();
   });
 })();
+
 
 // FAB Back-to-Top flotante (muestra/oculta y scroll suave)
 (function(){
