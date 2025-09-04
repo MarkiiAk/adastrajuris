@@ -1,0 +1,156 @@
+{
+  "brand": "ABC Inmobiliaria",
+
+  "nav": {
+    "nav1": "Inicio",
+    "nav2": "Nosotros",
+    "nav3": "Proyectos",
+    "nav4": "Servicios",
+    "nav5": "Confianza",
+    "nav6": "Trayectoria",
+    "nav7": "Testimonios",
+    "nav8": "Contacto"
+  },
+
+  "hero": {
+    "title": "Solidez inmobiliaria para tu patrimonio",
+    "subtitle": "Venta, renta y desarrollo con procesos transparentes y respaldo corporativo. Decisiones serias, resultados medibles.",
+    "cta1": "Explorar propiedades",
+    "cta2": "Agendar una cita",
+    "numbadge1": 250,
+    "badge1": "operaciones",
+    "badge2": "años de experiencia",
+    "badge3": "satisfacción",
+    "highlightTitle": "Propiedad destacada",
+    "highlightSubtitle": "Torre Nova — Corporativo AAA",
+    "highlightMeta1": "Ubicación: Santa Fe",
+    "highlightMeta2": "Espacios: 180–1,200 m²",
+    "highlightMeta3": "Disponibilidad: Inmediata",
+    "highlightLink": "Mas propiedades"
+  },
+
+  "about": {
+    "title": "Quiénes somos",
+    "text": "En ABC Inmobiliaria operamos bajo estándares corporativos para proteger el valor de tu inversión. Integramos análisis de mercado, due diligence legal y negociación estratégica.",
+    "list1": "Gobierno corporativo y compliance.",
+    "list2": "Modelo de evaluación 360° (financiero, legal, técnico).",
+    "list3": "Red de aliados: notarías, valuadores y desarrolladores.",
+    "missionTitle": "Misión",
+    "missionText": "Crear valor inmobiliario sostenible a través de procesos transparentes.",
+    "visionTitle": "Visión",
+    "visionText": "Ser el referente en operaciones seguras y eficientes en México."
+  },
+
+  "portfolio": {
+    "title": "Portafolio",
+    "filter1": "Todo",
+    "filter2": "Venta",
+    "filter3": "Renta",
+    "filter4": "Desarrollo",
+
+    "card1Alt": "Residencial Aurum",
+    "card1Badge": "Venta",
+    "card1Title": "Residencial Aurum",
+    "card1Meta": "Bosques de las Lomas · 420 m² · 3 rec · 3.5 baños",
+    "card1Price": "$22,900,000 MXN",
+    "card1Cta": "Solicitar Detalles",
+
+    "card2Alt": "Corporativo Nova",
+    "card2Badge": "Renta",
+    "card2Title": "Corporativo Nova",
+    "card2Meta": "Santa Fe · 180–1,200 m² · Shell & Core",
+    "card2Price": "Desde $420/m²",
+    "card2Cta": "Solicitar Detalles",
+
+    "card3Alt": "Altavista Park",
+    "card3Badge": "Desarrollo",
+    "card3Title": "Altavista Park",
+    "card3Meta": "Cumbres · Lotes residenciales · Etapa 2",
+    "card3Price": "Preventas",
+    "card3Cta": "Solicitar Detalles",
+
+    "card4Alt": "Skyline VIP",
+    "card4Badge": "Venta",
+    "card4Title": "Skyline VIP",
+    "card4Meta": "Polanco · PH 310 m² · Terraza",
+    "card4Price": "$28,500,000 MXN",
+    "card4Cta": "Solicitar Detalles",
+
+    "card5Alt": "Loft Urbano",
+    "card5Badge": "Renta",
+    "card5Title": "Loft Urbano",
+    "card5Meta": "Roma Norte · 78 m² · Amueblado",
+    "card5Price": "$28,900 MXN/mes",
+    "card5Cta": "Solicitar Detalles",
+
+    "card6Alt": "Lomas Verdes Residencial",
+    "card6Badge": "Desarrollo",
+    "card6Title": "Lomas Verdes Residencial",
+    "card6Meta": "Naucalpan · 2 y 3 rec · Amenidades",
+    "card6Price": "Entrega Q4",
+    "card6Cta": "Solicitar Detalles"
+  },
+
+  "services": {
+    "title": "Servicios",
+    "card1Title": "Venta / Renta",
+    "card1Text": "Colocación de inmuebles residenciales y corporativos con inteligencia de mercado.",
+    "card2Title": "Desarrollos",
+    "card2Text": "Estructuración, preventa y acompañamiento integral de proyectos.",
+    "card3Title": "Administración",
+    "card3Text": "Gestión de arrendamientos, cobranzas y mantenimiento con KPIs."
+  },
+
+  "trust": {
+    "title": "Por qué confiar en ABC",
+    "list1": "Due diligence legal y fiscal previo a publicación.",
+    "list2": "Contratos estandarizados y trazabilidad documental.",
+    "list3": "Comunicaciones claras, sin letra chica.",
+    "indicatorsTitle": "Indicadores clave",
+    "kpi1": "días promedio de colocación",
+    "kpi2": "% operaciones en primera visita",
+    "kpi3": "% contratos con garantías"
+  },
+
+  "trajectory": {
+    "title": "Trayectoria",
+    "event1Year": "2011",
+    "event1Text": "Nace ABC con foco en residencial premium.",
+    "event2Year": "2016",
+    "event2Text": "Expansión a corporativo y parques industriales.",
+    "event3Year": "2022",
+    "event3Text": "Implementación de gobierno corporativo y certificaciones.",
+    "event4Year": "2025",
+    "event4Text": "Portafolio activo en 7 ciudades."
+  },
+
+  "testimonials": {
+    "title": "Testimonios",
+    "quote1": "“Operación impecable. La documentación y la negociación fueron claras desde el día uno.”",
+    "author1": "— M. Hernández, Inversionista",
+    "quote2": "“Lograron rentar el corporativo en 18 días con un inquilino sólido.”",
+    "author2": "— M. López, Propietaria",
+    "quote3": "“Nos acompañaron en el due diligence del desarrollo. Cero sorpresas.”",
+    "author3": "— Grupo Avance, Desarrollador"
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "text": "Agenda una cita con nuestro equipo. Respuesta en menos de 24 horas hábiles.",
+    "phoneLabel": "Tel:",
+    "phone": "+52 55 1234 5678",
+    "emailLabel": "Email:",
+    "email": "contacto@abc.mx",
+    "officeLabel": "Oficinas:",
+    "office": "Av. Empresa 100, CDMX",
+    "formName": "Nombre",
+    "formEmail": "Email",
+    "formMsg": "Mensaje",
+    "formBtn": "Enviar",
+    "formNote": "También puedes escribir directo a contacto@abc.mx"
+  },
+
+  "footer": {
+    "text": "© 2025 ABC Inmobiliaria. Todos los derechos reservados."
+  }
+}

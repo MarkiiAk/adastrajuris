@@ -1,0 +1,6 @@
+{
+    "hero":{
+        "imgLight": "assets/img/hero/edificio-dia.jpg",
+        "imgNight": "assets/img/hero/edificio-nocturno.jpg"
+    }
+}

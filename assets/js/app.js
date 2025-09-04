@@ -1,5 +1,4 @@
 // Año en footer
-document.getElementById('year').textContent = new Date().getFullYear();
 
 /* ====================== */
 /*  ADDED: Empuje de body */
@@ -222,5 +221,91 @@ document.getElementById('year').textContent = new Date().getFullYear();
     }
 
     scrollToContacto();
+  });
+})();
+
+// FAB Back-to-Top flotante (muestra/oculta y scroll suave)
+(function(){
+  const btn = document.querySelector('.toTopFab');
+  if(!btn) return;
+
+  const showAt = 280; // px de scroll para mostrar el botón
+  function onScroll(){
+    btn.classList.toggle('is-visible', window.scrollY > showAt);
+  }
+
+  // Mostrar estado inicial y en scroll
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Click -> arriba suave
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+
+// Toggle de tema (oscuro/claro) con persistencia + cambio de imagen del hero
+(function(){
+  const STORAGE_KEY = 'theme';
+  const btn = document.querySelector('.themeFab');
+  const icon = btn?.querySelector('.material-symbols-outlined');
+  const docEl = document.documentElement;
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+  // Cambia la(s) imagen(es) marcadas como .hero-img según el tema
+  function updateHeroImages(theme){
+    const imgs = document.querySelectorAll('.hero-img');
+    imgs.forEach(img=>{
+      const next = img.dataset[theme === 'dark' ? 'srcDark' : 'srcLight'];
+      if(next && img.src !== next){
+        // Preload para evitar parpadeo
+        const pre = new Image();
+        pre.src = next;
+        pre.onload = ()=> { img.src = next; };
+      }
+    });
+  }
+
+  function getStoredTheme(){ return localStorage.getItem(STORAGE_KEY); }
+  function systemTheme(){ return mq.matches ? 'dark' : 'light'; }
+  function currentTheme(){ return docEl.getAttribute('data-theme') || 'dark'; }
+
+  function applyTheme(theme){
+    docEl.setAttribute('data-theme', theme);
+    if(icon){
+      icon.textContent = theme === 'dark' ? 'dark_mode' : 'light_mode';
+      btn?.setAttribute('aria-label', theme === 'dark' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+      btn?.setAttribute('title', theme === 'dark' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro');
+    }
+    updateHeroImages(theme);
+  }
+
+  function initTheme(){
+    const stored = getStoredTheme();
+    const theme = stored || systemTheme();
+    applyTheme(theme);
+  }
+
+  function toggleTheme(){
+    const next = currentTheme() === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  }
+
+  // Init
+  initTheme();
+
+  // Si el user NO eligió manual, respeta cambio del sistema
+  mq.addEventListener?.('change', (e)=>{
+    if(!getStoredTheme()){
+      applyTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+
+  // Click FAB
+  btn?.addEventListener('click', (e)=>{
+    e.preventDefault();
+    toggleTheme();
   });
 })();
