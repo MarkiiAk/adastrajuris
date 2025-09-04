@@ -466,3 +466,56 @@ a{color:inherit;text-decoration:none}
 @media (max-width: 640px){
   .themeFab{ right: 16px; width: 52px; height: 52px; }
 }
+
+/* Contenedor */
+.socials{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  margin-top:1rem;
+}
+
+/* Botón redondo */
+.soc{
+  --size: 42px;              /* diámetro del círculo */
+  width:var(--size);
+  height:var(--size);
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  text-decoration:none;
+  box-shadow:0 0 0 1px rgba(0,0,0,.06) inset;
+  transition:transform .15s ease, filter .25s ease, box-shadow .25s ease;
+}
+
+/* Ícono dentro del círculo (se escala sin deformarse) */
+.soc .icon{
+  width:58%;
+  height:58%;
+  object-fit:contain;
+  display:block;
+  /* Si tus SVG son NEGROS, esto los vuelve blancos sobre el fondo.
+     Si ya son blancos, quita este filter. */
+  filter: brightness(0) invert(1);
+}
+
+/* Hover */
+.soc:hover{
+  transform:translateY(-2px);
+  filter:brightness(1.05);
+  box-shadow:0 6px 16px rgba(0,0,0,.20);
+}
+
+/* Colores de marca del círculo */
+.soc.fb{ background:#1877F2; }             /* Facebook */
+.soc.ig{                                    /* Instagram (gradiente) */
+  background:
+    linear-gradient(45deg,#F58529,#F56040,#E1306C,#C13584,#833AB4,#5851DB);
+}
+.soc.wa{ background:#25D366; }             /* WhatsApp */
+
+/* Ajustes responsive opcionales */
+@media (max-width:480px){
+  .soc{ --size: 38px; }
+  .soc .icon{ width:56%; height:56%; }
+}
