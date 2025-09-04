@@ -215,7 +215,7 @@
 
     const card = link.closest('.prop');
     const textarea = document.getElementById('msg');
-    const sendBtn = document.querySelector('#contacto button[type="submit"], #contacto .formBtn');
+    const sendBtn = document.querySelector('#nav8 button[type="submit"], #nav8 .formBtn');
 
     if(textarea){
       textarea.value = buildMensaje(card);
@@ -319,4 +319,31 @@
     e.preventDefault();
     toggleTheme();
   });
+})();
+
+// Evitar que los FABs tapen el footer
+(function(){
+  const stack = document.querySelector('.fabStack');
+  const footer = document.querySelector('.footer');
+  if(!stack || !footer) return;
+
+  function bump(){
+    const fr = footer.getBoundingClientRect();
+    const overlap = Math.max(0, window.innerHeight - fr.top); // px que invade
+    stack.style.bottom = `calc(${16 + Math.floor(overlap)}px + env(safe-area-inset-bottom))`;
+  }
+
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.target === footer){
+        if(e.isIntersecting){ bump(); }
+        else { stack.style.bottom = `calc(16px + env(safe-area-inset-bottom))`; }
+      }
+    });
+  },{threshold:0});
+  io.observe(footer);
+
+  window.addEventListener('scroll', bump, {passive:true});
+  window.addEventListener('resize', bump);
+  bump();
 })();
