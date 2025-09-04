@@ -4,134 +4,135 @@
   "nav": {
     "nav1": "Inicio",
     "nav2": "Quiénes somos",
-    "nav3": "Especialidades",
-    "nav4": "Servicios",
-    "nav5": "Confianza",
-    "nav6": "Trayectoria",
-    "nav7": "Testimonios",
+    "nav3": "Misión & Visión",
+    "nav4": "Valores",
+    "nav5": "Equipo",
+    "nav6": "Servicios",
+    "nav7": "Cobertura",
     "nav8": "Contacto"
   },
 
   "hero": {
-    "title": "Excelencia legal que trasciende límites",
-    "subtitle": "Firma especializada en derecho laboral, con respaldo corporativo y atención estratégica en cada proceso. Claridad, precisión y compromiso en tu defensa.",
-    "cta1": "Conocer especialidades",
-    "cta2": "Agendar consulta",
-    "numbadge1": 250,
-    "badge1": "casos laborales resueltos",
-    "badge2": "años de experiencia",
-    "badge3": "clientes satisfechos",
-    "highlightTitle": "Especialidad",
-    "highlightSubtitle": "Derecho Laboral",
-    "highlightMeta1": "Despidos y liquidaciones",
-    "highlightMeta2": "Negociaciones colectivas",
-    "highlightMeta3": "Defensa patronal y asesoría preventiva",
+    "title": "Abogados comprometidos con la excelencia jurídica",
+    "subtitle": "Más de 10 años de experiencia brindando asesoría y representación en Derecho Civil, Familiar, Mercantil, Laboral y Administrativo. Atención personalizada y cobertura nacional.",
+    "cta1": "Servicios",
+    "cta2": "Consultas",
+    "numbadge1": 10,
+    "badge1": "años de experiencia",
+    "badge2": "áreas de especialidad",
+    "badge3": "presencia nacional",
+    "highlightTitle": "Áreas de Especialidad",
+    "highlightSubtitle": "Cobertura legal integral en las principales ramas del Derecho",
+    "highlightMeta1": "Derecho Laboral: audiencias, sindicatos, contratos colectivos y defensa patronal.",
+    "highlightMeta2": "Derecho Civil & Familiar: divorcios, sucesiones, custodia, alimentos y contratos civiles.",
+    "highlightMeta3": "Derecho Mercantil: juicios ejecutivos, sociedades, concursos mercantiles, embargos y garantías.",
+    "highlightMeta4": "Juicios de Amparo: defensa estratégica en materias civil, familiar, laboral, mercantil y administrativa.",
+    "highlightMeta5": "Sector Inmobiliario: compraventa, arrendamientos, regularización de inmuebles y due diligence.",
     "highlightLink": "Ver todas las áreas"
   },
 
   "about": {
     "title": "Quiénes somos",
-    "text": "En Ad Astra Juris llevamos la práctica legal a un nuevo nivel con profesionalismo, ética y visión estratégica. Nos especializamos en derecho laboral y complementamos con ramas corporativas y litigiosas para ofrecer soluciones integrales.",
-    "list1": "Litigio laboral con estrategia preventiva y correctiva.",
-    "list2": "Asesoría integral en derecho corporativo y mercantil.",
-    "list3": "Red de especialistas en ramas penal, civil y administrativa.",
+    "text": "Ad Astra Juris, S.C. es una firma mexicana con más de 10 años de experiencia en asesoría y representación jurídica. Nos distinguimos por brindar servicios legales de alta calidad, priorizando el interés y satisfacción de nuestros clientes.",
+    "list1": "Atención personalizada en Derecho Civil, Familiar, Mercantil, Laboral y Administrativo.",
+    "list2": "Equipo altamente competente y en constante actualización.",
+    "list3": "Cobertura en toda la República Mexicana.",
     "missionTitle": "Misión",
-    "missionText": "Defender y fortalecer los intereses de nuestros clientes con estrategias legales claras y eficaces.",
+    "missionText": "Brindar asesoría y representación jurídica integral con respeto, excelencia y confianza, adaptándonos a la realidad jurídica y social.",
     "visionTitle": "Visión",
-    "visionText": "Ser la firma de referencia en derecho laboral y corporativo en México."
+    "visionText": "Ser una de las firmas de abogados más destacadas de México, reconocida por su competitividad, confianza y solidez."
   },
 
   "portfolio": {
     "title": "Especialidades",
     "filter1": "Todo",
-    "filter2": "Laboral",
-    "filter3": "Corporativo",
-    "filter4": "Penal",
+    "filter2": "Civil & Familiar",
+    "filter3": "Laboral",
+    "filter4": "Mercantil",
 
-    "card1Alt": "Derecho Laboral",
-    "card1Badge": "Laboral",
-    "card1Title": "Derecho Laboral",
-    "card1Meta": "Despidos · Liquidaciones · Contratos laborales",
+    "card1Alt": "Derecho Civil y Familiar",
+    "card1Badge": "Civil & Familiar",
+    "card1Title": "Derecho Civil y Familiar",
+    "card1Meta": "Divorcios · Sucesiones · Custodia · Contratos civiles",
     "card1Price": "Asesoría integral",
     "card1Cta": "Más información",
 
-    "card2Alt": "Derecho Mercantil",
-    "card2Badge": "Mercantil",
-    "card2Title": "Derecho Mercantil",
-    "card2Meta": "Contratos · Sociedades · Litigios comerciales",
+    "card2Alt": "Derecho Laboral",
+    "card2Badge": "Laboral",
+    "card2Title": "Derecho Laboral",
+    "card2Meta": "Audiencias · Sindicatos · Contratos colectivos · Defensa patronal",
     "card2Price": "Asesoría integral",
     "card2Cta": "Más información",
 
-    "card3Alt": "Derecho Penal",
-    "card3Badge": "Penal",
-    "card3Title": "Derecho Penal",
-    "card3Meta": "Defensa estratégica · Delitos patrimoniales · Procesos orales",
+    "card3Alt": "Derecho Mercantil",
+    "card3Badge": "Mercantil",
+    "card3Title": "Derecho Mercantil",
+    "card3Meta": "Juicios ejecutivos · Sociedades · Embargos · Concursos mercantiles",
     "card3Price": "Asesoría integral",
     "card3Cta": "Más información",
 
-    "card4Alt": "Derecho Civil",
-    "card4Badge": "Civil",
-    "card4Title": "Derecho Civil",
-    "card4Meta": "Arrendamientos · Contratos · Responsabilidad civil",
-    "card4Price": "Asesoría integral",
+    "card4Alt": "Juicios de Amparo",
+    "card4Badge": "Amparo",
+    "card4Title": "Juicios de Amparo",
+    "card4Meta": "Amparo directo e indirecto en laboral, civil, familiar y mercantil",
+    "card4Price": "Asesoría y representación",
     "card4Cta": "Más información",
 
-    "card5Alt": "Juicios de Amparo",
-    "card5Badge": "Amparo",
-    "card5Title": "Juicios de Amparo",
-    "card5Meta": "Directo e indirecto · Suspensión · Materia laboral y penal",
-    "card5Price": "Asesoría y representación",
-    "card5Cta": "Más información",
-
-    "card6Alt": "Administrativo & Regulación",
-    "card6Badge": "Administrativo",
-    "card6Title": "Administrativo & Regulación",
-    "card6Meta": "Permisos · Licencias · Procedimientos ante autoridades",
-    "card6Price": "Por evaluación",
-    "card6Cta": "Más información"
+    "card5Alt": "Sector Inmobiliario",
+    "card5Badge": "Inmobiliario",
+    "card5Title": "Sector Inmobiliario",
+    "card5Meta": "Compraventa · Regularización · Trámites notariales y registrales",
+    "card5Price": "Asesoría integral",
+    "card5Cta": "Más información"
   },
 
   "services": {
     "title": "Servicios legales",
-    "card1Title": "Litigio & Defensa",
-    "card1Text": "Representación profesional en juicios laborales, mercantiles, civiles y penales.",
-    "card2Title": "Asesoría Corporativa",
-    "card2Text": "Prevención de riesgos legales mediante auditorías, contratos y compliance.",
-    "card3Title": "Negociación & Mediación",
-    "card3Text": "Estrategias para resolución alternativa de conflictos con resultados eficientes."
+    "card1Title": "Derecho Civil & Familiar",
+    "card1Text": "Divorcios, sucesiones, custodia, contratos civiles y reconocimiento de paternidad.",
+    "card2Title": "Derecho Laboral & Colectivo",
+    "card2Text": "Audiencias, reglamentos, negociaciones con sindicatos y representación ante tribunales.",
+    "card3Title": "Derecho Mercantil",
+    "card3Text": "Juicios ejecutivos y orales, sociedades, títulos de crédito, embargos y garantías.",
+    "card4Title": "Juicios de Amparo",
+    "card4Text": "Amparos directos e indirectos en todas las ramas jurídicas.",
+    "card5Title": "Sector Inmobiliario",
+    "card5Text": "Compraventa, arrendamiento, regularización, due diligence y asesoría patrimonial preventiva."
   },
 
   "trust": {
-    "title": "Por qué confiar en nosotros",
-    "list1": "Especialización comprobada en derecho laboral.",
-    "list2": "Asesoría multidisciplinaria con visión integral.",
-    "list3": "Transparencia total en procesos y resultados.",
-    "indicatorsTitle": "Indicadores clave",
-    "kpi1": "casos laborales ganados",
-    "kpi2": "% resolución en favor del cliente",
-    "kpi3": "% clientes recurrentes"
+    "title": "Nuestros valores",
+    "list1": "Confianza: Servir y cumplir lo prometido.",
+    "list2": "Excelencia: Buscar la perfección en cada acción.",
+    "list3": "Respeto: Reconocer la dignidad de cada persona.",
+    "list4": "Compromiso: Máximo esfuerzo con responsabilidad.",
+    "list5": "Lealtad: Fidelidad a clientes y principios.",
+    "indicatorsTitle": "Nuestros KPIs",
+    "kpi1": "+<span class='kpi' data-count='10'>0</span> <span> años de experiencia comprobada</span>",
+    "kpi2": "Presencia en <span class='kpi' data-count='10'>0</span> ciudades de México</span>",
+    "kpi3": "Equipo de <span class='kpi' data-count='9'>0</span> abogados y pasantes especializados"
   },
 
   "trajectory": {
-    "title": "Trayectoria",
+    "title": "Cobertura Nacional",
     "event1Year": "2010",
-    "event1Text": "Fundación de Ad Astra Juris con foco en derecho laboral.",
+    "event1Text": "Fundación de Ad Astra Juris en Ciudad de México.",
     "event2Year": "2015",
-    "event2Text": "Expansión a mercantil y civil.",
+    "event2Text": "Expansión a Guadalajara, Monterrey y Puebla.",
     "event3Year": "2020",
-    "event3Text": "Incorporación de área penal y compliance.",
+    "event3Text": "Presencia consolidada en más de 10 ciudades del país.",
     "event4Year": "2025",
-    "event4Text": "Consolidación como firma multidisciplinaria."
+    "event4Text": "Cobertura estratégica en CDMX, León, Los Cabos, Veracruz, Morelia y más."
   },
 
   "testimonials": {
-    "title": "Testimonios",
-    "quote1": "“La defensa laboral fue impecable. Resolvieron un conflicto complejo con rapidez.”",
-    "author1": "— L. Fernández, Empresario",
-    "quote2": "“Nos brindaron asesoría mercantil precisa y estratégica.”",
-    "author2": "— M. Ortega, Directora General",
-    "quote3": "“Su equipo penal nos dio seguridad y confianza en todo el proceso.”",
-    "author3": "— J. Ramírez, Cliente particular"
+    "title": "Por qué elegirnos",
+    "quote1": "“Más de 10 años de experiencia comprobada en diversas áreas del derecho.”",
+    "author1": "— Cliente Corporativo",
+    "quote2": "“Cobertura nacional y soluciones jurídicas efectivas.”",
+    "author2": "— Empresa del sector industrial",
+    "quote3": "“Atención personalizada y compromiso con la excelencia.”",
+    "author3": "— Cliente particular"
   },
 
   "contact": {
@@ -142,15 +143,15 @@
     "emailLabel": "Email:",
     "email": "contacto@adastrajuris.mx",
     "officeLabel": "Oficinas:",
-    "office": "Av. Justicia 101, Ciudad de México",
+    "office": "Ciudad de México y cobertura nacional",
     "formName": "Nombre",
     "formEmail": "Correo",
     "formMsg": "Mensaje",
     "formBtn": "Enviar",
-    "formNote": "También puedes escribirnos directamente a contacto@adastrajuris.mx"
+    "formNote": "También puede escribirnos directamente a contacto@adastrajuris.mx"
   },
 
   "footer": {
-    "text": "© 2025 Ad Astra Juris. Todos los derechos reservados."
+    "text": "© 2025 Ad Astra Juris, S.C. Todos los derechos reservados."
   }
 }

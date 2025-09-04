@@ -78,7 +78,6 @@
   </script>
 
   <!-- ===== Scripts (conservados) ===== -->
-  <script defer src="assets/js/bindings.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
@@ -169,11 +168,11 @@
           <p data-text="about.missionText">aboutMissionText</p>
           <h3 data-text="about.visionTitle">aboutVisionTitle</h3>
           <p data-text="about.visionText">aboutVisionText</p>
-          <div class="logos">
+          <!-- <div class="logos">
             <img src="assets/img/cert/cert1.png" alt="AMPI" />
             <img src="assets/img/cert/cert2.png" alt="ISO 27001" />
             <img src="assets/img/cert/cert3.png" alt="ISO 9001" />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -184,13 +183,6 @@
     <div class="container">
       <div class="section__head">
         <h2 class="h2" data-text="portfolio.title">portfolioTitle</h2>
-
-        <div class="filters" role="tablist" aria-label="Filtros de propiedades">
-          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true" data-text="portfolio.filter1">filterAll</button>
-          <button class="filter" data-filter="venta" role="tab" aria-selected="false" data-text="portfolio.filter2">filterVenta</button>
-          <button class="filter" data-filter="renta" role="tab" aria-selected="false" data-text="portfolio.filter3">filterRenta</button>
-          <button class="filter" data-filter="desarrollo" role="tab" aria-selected="false" data-text="portfolio.filter4">filterDesarrollo</button>
-        </div>
       </div>
 
       <div class="grid grid--3 properties">
@@ -263,20 +255,6 @@
             <a href="#nav8" class="link" data-text="portfolio.card5Cta">card5Cta</a>
           </div>
         </article>
-
-        <!-- Card 6 -->
-        <article class="prop reveal" data-type="desarrollo">
-          <div class="prop__media">
-            <img src="assets/img/cards/card6.jpg" alt="" data-text="portfolio.card6Alt">card6Alt
-            <span class="badge badge--desarrollo" data-text="portfolio.card6Badge">card6Badge</span>
-          </div>
-          <div class="prop__body">
-            <h3 class="prop__title" data-text="portfolio.card6Title">card6Title</h3>
-            <p class="prop__meta" data-text="portfolio.card6Meta">card6Meta</p>
-            <p class="prop__price" data-text="portfolio.card6Price">card6Price</p>
-            <a href="#nav8" class="link" data-text="portfolio.card6Cta">card6Cta</a>
-          </div>
-        </article>
       </div>
     </div>
   </section>
@@ -317,9 +295,9 @@
         <div class="card card--outline">
           <h3 data-text="trust.indicatorsTitle">indicatorsTitle</h3>
           <ul class="kpi-list">
-            <li><span class="kpi" data-count="35">0</span> <span data-text="trust.kpi1">kpi1</span></li>
-            <li><span class="kpi" data-count="92">0</span> <span data-text="trust.kpi2">kpi2</span></li>
-            <li><span class="kpi" data-count="100">0</span> <span data-text="trust.kpi3">kpi3</span></li>
+            <li data-html="trust.kpi1"></li>
+            <li data-html="trust.kpi2"></li>
+            <li data-html="trust.kpi3"></li>
           </ul>
         </div>
       </div>
@@ -440,5 +418,6 @@
   </a>
 
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/bindings.js" defer></script>
 </body>
 </html>
