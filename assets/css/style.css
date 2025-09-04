@@ -129,7 +129,7 @@ a{color:inherit;text-decoration:none}
 .header__gold-line{height:3px;background:linear-gradient(90deg,var(--color-accent),var(--color-accent-2));}
 .header__inner{display:flex;align-items:center;justify-content:space-between;height:70px}
 .brand{display:flex;align-items:center;gap:12px}
-.brand__logo{width:32px;height:auto;filter:grayscale(20%) contrast(110%)}
+.brand__logo{width:55px;height:auto;filter:grayscale(20%) contrast(110%)}
 .brand__text{font-weight:800;letter-spacing:.4px}
 
 .nav{position:relative}

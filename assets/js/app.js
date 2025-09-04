@@ -188,7 +188,7 @@
   const header = document.getElementById('site-header');
 
   function scrollToContacto(){
-    const sec = document.getElementById('contacto');
+    const sec = document.getElementById('nav8');
     if(!sec) return;
     const y = sec.getBoundingClientRect().top + window.scrollY - (header?.offsetHeight || 0) + 6;
     window.scrollTo({ top: y, behavior: 'smooth' });
@@ -199,10 +199,10 @@
     const meta  = card?.querySelector('.prop__meta')?.textContent?.trim();
     const price = card?.querySelector('.prop__price')?.textContent?.trim();
 
-    let msg = `Me gustaría cotizar la propiedad${title ? ` "${title}"` : ""}. `;
+    let msg = `Me gustaría asesoramiento sobre ${title ? ` "${title}"` : ""}. `;
     if(meta)  msg += meta + ". ";
     if(price) msg += `Precio: ${price}. `;
-    msg += "¿Podrían darme más detalles?";
+    msg += "¿Podrían agendar una consulta?";
     return msg;
   }
 
