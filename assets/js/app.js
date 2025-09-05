@@ -347,3 +347,19 @@
   window.addEventListener('resize', bump);
   bump();
 })();
+
+// Iniciales automáticas para avatar (si no hay foto)
+(function(){
+  document.querySelectorAll('.avatar').forEach(av=>{
+    const hasImg = av.querySelector('img');
+    if(hasImg) return;
+    const span = av.querySelector('.avatar__init');
+    if(!span) return;
+    const name = av.getAttribute('data-name') || '';
+    const initials = name.trim().split(/\s+/)
+      .filter(Boolean)
+      .slice(0,3) // hasta 3 iniciales si hay nombres compuestos
+      .map(w=>w[0]).join('').toUpperCase();
+    span.textContent = initials || 'AA';
+  });
+})();

@@ -13,7 +13,7 @@
   },
 
   "hero": {
-    "title": "Abogados comprometidos con la excelencia jurídica",
+    "title": "Abogados comprometidos con la excelencia en el derecho",
     "subtitle": "Más de 10 años de experiencia brindando asesoría y representación en Derecho Civil, Familiar, Mercantil, Laboral y Administrativo. Atención personalizada y cobertura nacional.",
     "cta1": "Servicios",
     "cta2": "Consultas",
@@ -23,15 +23,14 @@
     "badge3": " ciudades con presencia en México",
     "highlightTitle": "Áreas de Especialidad",
     "highlightSubtitle": "Cobertura legal integral en las principales ramas del Derecho",
-    "highlightMeta1": "Derecho Laboral: audiencias, sindicatos, contratos colectivos y defensa patronal.",
-    "highlightMeta2": "Derecho Civil & Familiar: divorcios, sucesiones, custodia, alimentos y contratos civiles.",
-    "highlightMeta3": "Derecho Mercantil: juicios ejecutivos, sociedades, concursos mercantiles, embargos y garantías.",
-    "highlightMeta4": "Juicios de Amparo: defensa estratégica en materias civil, familiar, laboral, mercantil y administrativa.",
-    "highlightMeta5": "Sector Inmobiliario: compraventa, arrendamientos, regularización de inmuebles y due diligence.",
+    "highlightMeta1": "Derecho Laboral: Despidos injustificados, Contratos individuales y colectivos de trabajo, Cálculo de Liquidación o finiquito, Actas administrativas y sanciones disciplinarias .",
+    "highlightMeta2": "Derecho Civil y Familiar: Juicios de Divorcio, Sucesiones Testamentarias e Intestamentarias, Pensión Alimenticia, Contratos Civiles",
+    "highlightMeta3": "Derecho Mercantil: Pagarés, Cheques, Letras de cambio, Contratos mercantiles.",
+    "highlightMeta5": "Derecho Inmobiliario: Compraventa de bienes inmuebles, Contratos y pólizas de arrendamiento, Regularización de inmuebles, Trámites notariales y registrales",
     "highlightLink": "Ver todas las áreas"
   },
 
-  "about": {
+"about": {
     "title": "Quiénes somos",
     "text": "Ad Astra Juris, S.C. es una firma mexicana con más de 10 años de experiencia en asesoría y representación jurídica. Nos distinguimos por brindar servicios legales de alta calidad, priorizando el interés y satisfacción de nuestros clientes.",
     "list1": "Atención personalizada en Derecho Civil, Familiar, Mercantil, Laboral y Administrativo.",
@@ -40,8 +39,37 @@
     "missionTitle": "Misión",
     "missionText": "Brindar asesoría y representación jurídica integral con respeto, excelencia y confianza, adaptándonos a la realidad jurídica y social.",
     "visionTitle": "Visión",
-    "visionText": "Ser una de las firmas de abogados más destacadas de México, reconocida por su competitividad, confianza y solidez."
+    "visionText": "Ser una de las firmas de abogados más destacadas de México, reconocida por su competitividad, confianza y solidez.",
+
+    "teamTitle": "El Equipo",
+    "teamFoundersTitle": "Socios Fundadores",
+    "founder1Name": "Lic. Hugo Enrique González Moreno",
+    "founder1Role": "Especialista en Derecho Laboral y Relaciones Laborales.",
+    "founder2Name": "Lic. Gustavo Alonso Alfaro Díaz",
+    "founder2Role": "Especialista en Juicios Orales y Derecho Procesal Civil y Familiar.",
+
+    "teamPartnersTitle": "Socios",
+    "partner1Name": "Lic. Miguel Ángel Espinosa Yáñez",
+    "partner1Role": "Especialista en Derecho Civil y Familiar.",
+
+    "teamAssociatesTitle": "Asociados",
+    "associate1Name": "Lic. Laura Rodríguez Espinosa",
+    "associate1Role": "Especialista en Derecho Civil y Familiar; Diplomado en Derecho Inmobiliario, Notarial y Registral.",
+    "associate2Name": "Lic. Jacob Israel Martínez García",
+    "associate2Role": "Especialista en Sector Inmobiliario, Patrimonial y Notarial.",
+    "associate3Name": "Lic. Daniel Hernández Ruiz",
+    "associate3Role": "Especialista en Derecho Laboral Colectivo, con más de 20 años de experiencia.",
+
+    "teamInternsTitle": "Pasantes en Derecho",
+    "intern1Name": "Fernando Hernández Madrigal",
+    "intern1Role": "Coordinador de Pasantes.",
+    "intern2Name": "Gandhi Azucena García Garatachea",
+    "intern3Name": "Jesús Guillermo García Villamil",
+
+    "mentorsTitle": "Padrinos",
+    "mentorsText": "Consejo consultivo que acompaña a la firma en proyectos estratégicos y de alto impacto."
   },
+
 
   "portfolio": {
     "title": "Especialidades",
@@ -88,16 +116,14 @@
 
   "services": {
     "title": "Servicios legales",
-    "card1Title": "Derecho Civil & Familiar",
-    "card1Text": "Divorcios, sucesiones, custodia, contratos civiles y reconocimiento de paternidad.",
-    "card2Title": "Derecho Laboral & Colectivo",
-    "card2Text": "Audiencias, reglamentos, negociaciones con sindicatos y representación ante tribunales.",
+    "card1Title": "Civil y Familiar",
+    "card1Text": "• Juicios de Divorcio. <br> • Sucesiones Testamentarias e Intestamentarias. <br> • Pensión Alimenticia. <br> • Contratos Civiles.",
+    "card2Title": "Derecho Laboral",
+    "card2Text": "• Despidos injustificados. <br> • Contratos individuales y colectivos de trabajo. <br> • Cálculo de Liquidación o finiquito. <br> • Actas administrativas y sanciones disciplinarias.",
     "card3Title": "Derecho Mercantil",
-    "card3Text": "Juicios ejecutivos y orales, sociedades, títulos de crédito, embargos y garantías.",
-    "card4Title": "Juicios de Amparo",
-    "card4Text": "Amparos directos e indirectos en todas las ramas jurídicas.",
-    "card5Title": "Sector Inmobiliario",
-    "card5Text": "Compraventa, arrendamiento, regularización, due diligence y asesoría patrimonial preventiva."
+    "card3Text": "• Pagarés. <br> • Cheques. <br> • Letras de cambio. <br> • Contratos mercantiles.",
+    "card4Title": "Derecho Inmobiliario",
+    "card4Text": "• Compraventa de bienes inmuebles. <br> • Contratos y pólizas de arrendamiento. <br> • Regularización de inmuebles. <br> • Trámites notariales y registrales"
   },
 
   "trust": {
