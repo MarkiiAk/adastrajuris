@@ -51,6 +51,8 @@
     "teamPartnersTitle": "Socios",
     "partner1Name": "Lic. Miguel Ángel Espinosa Yáñez",
     "partner1Role": "Especialista en Derecho Civil y Familiar.",
+    "partner2Name": "Lic. Israel Lima Manzano",
+    "partner2Role": "Defensa y representación en procesos penales, asesoría a víctimas u ofendidos, así como en denuncias, querellas, pruebas, apelaciones y juicios de amparo.",
 
     "teamAssociatesTitle": "Asociados",
     "associate1Name": "Lic. Laura Rodríguez Espinosa",
@@ -64,10 +66,7 @@
     "intern1Name": "Fernando Hernández Madrigal",
     "intern1Role": "Coordinador de Pasantes.",
     "intern2Name": "Gandhi Azucena García Garatachea",
-    "intern3Name": "Jesús Guillermo García Villamil",
-
-    "mentorsTitle": "Padrinos",
-    "mentorsText": "Consejo consultivo que acompaña a la firma en proyectos estratégicos y de alto impacto."
+    "intern3Name": "Jesús Guillermo García Villamil"
   },
 
 
@@ -102,7 +101,7 @@
     "card4Alt": "Juicios de Amparo",
     "card4Badge": "Amparo",
     "card4Title": "Juicios de Amparo",
-    "card4Meta": "Amparo directo e indirecto en laboral, civil, familiar y mercantil",
+    "card4Meta": "Amparo directo e indirecto en laboral, civil, familiar, mercantil y penal",
     "card4Price": "Asesoría y representación",
     "card4Cta": "Más información",
 
@@ -123,7 +122,9 @@
     "card3Title": "Derecho Mercantil",
     "card3Text": "• Pagarés. <br> • Cheques. <br> • Letras de cambio. <br> • Contratos mercantiles.",
     "card4Title": "Derecho Inmobiliario",
-    "card4Text": "• Compraventa de bienes inmuebles. <br> • Contratos y pólizas de arrendamiento. <br> • Regularización de inmuebles. <br> • Trámites notariales y registrales"
+    "card4Text": "• Compraventa de bienes inmuebles. <br> • Contratos y pólizas de arrendamiento. <br> • Regularización de inmuebles. <br> • Trámites notariales y registrales",
+    "card5Title": "Derecho Penal",
+    "card5Text": "• Defensa y representación en procesos penales. <br> • Asesoría a víctimas u ofendidos. <br> • Denuncias. <br> • Querellas. <br> • Pruebas. <br> • Apelación. <br> • Amparo"
   },
 
   "trust": {
