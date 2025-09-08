@@ -14,7 +14,7 @@
 
   "hero": {
     "title": "Abogados comprometidos con la excelencia en el derecho",
-    "subtitle": "Más de 10 años de experiencia brindando asesoría y representación en Derecho Civil, Familiar, Mercantil, Laboral y Administrativo. Atención personalizada y cobertura nacional.",
+    "subtitle": "Más de 10 años de experiencia brindando asesoría y representación en Derecho Civil, Familiar, Mercantil, Laboral, Penal y Administrativo. Atención personalizada y cobertura nacional.",
     "cta1": "Servicios",
     "cta2": "Consultas",
     "numbadge1": 10,
@@ -33,7 +33,7 @@
 "about": {
     "title": "Quiénes somos",
     "text": "Ad Astra Juris, S.C. es una firma mexicana con más de 10 años de experiencia en asesoría y representación jurídica. Nos distinguimos por brindar servicios legales de alta calidad, priorizando el interés y satisfacción de nuestros clientes.",
-    "list1": "Atención personalizada en Derecho Civil, Familiar, Mercantil, Laboral y Administrativo.",
+    "list1": "Atención personalizada en Derecho Civil, Familiar, Mercantil, Laboral Penal y Administrativo.",
     "list2": "Equipo altamente competente y en constante actualización.",
     "list3": "Cobertura en toda la República Mexicana.",
     "missionTitle": "Misión",
@@ -52,15 +52,15 @@
     "partner1Name": "Lic. Miguel Ángel Espinosa Yáñez",
     "partner1Role": "Especialista en Derecho Civil y Familiar.",
     "partner2Name": "Lic. Israel Lima Manzano",
-    "partner2Role": "Defensa y representación en procesos penales, asesoría a víctimas u ofendidos, así como en denuncias, querellas, pruebas, apelaciones y juicios de amparo.",
+    "partner2Role": "Especialista en Derecho Penal .",
 
     "teamAssociatesTitle": "Asociados",
     "associate1Name": "Lic. Laura Rodríguez Espinosa",
-    "associate1Role": "Especialista en Derecho Civil y Familiar; Diplomado en Derecho Inmobiliario, Notarial y Registral.",
+    "associate1Role": "Especialista en Derecho Civil, Familiar, Inmobiliario, Notarial y Registral.",
     "associate2Name": "Lic. Jacob Israel Martínez García",
     "associate2Role": "Especialista en Sector Inmobiliario, Patrimonial y Notarial.",
     "associate3Name": "Lic. Daniel Hernández Ruiz",
-    "associate3Role": "Especialista en Derecho Laboral Colectivo, con más de 20 años de experiencia.",
+    "associate3Role": "Especialista en Derecho Laboral y Colectivo.",
 
     "teamInternsTitle": "Pasantes en Derecho",
     "intern1Name": "Fernando Hernández Madrigal",
@@ -124,7 +124,7 @@
     "card4Title": "Derecho Inmobiliario",
     "card4Text": "• Compraventa de bienes inmuebles. <br> • Contratos y pólizas de arrendamiento. <br> • Regularización de inmuebles. <br> • Trámites notariales y registrales",
     "card5Title": "Derecho Penal",
-    "card5Text": "• Defensa y representación en procesos penales. <br> • Asesoría a víctimas u ofendidos. <br> • Denuncias. <br> • Querellas. <br> • Pruebas. <br> • Apelación. <br> • Amparo"
+    "card5Text": "• Defensa y/o representación <br> • Asesoría a víctimas u ofendidos. <br> • Denuncias. <br> • Querellas."
   },
 
   "trust": {
@@ -170,7 +170,7 @@
     "emailLabel": "Email:",
     "email": "contacto@adastrajuris.mx",
     "officeLabel": "Oficinas:",
-    "office": "Ciudad de México y cobertura nacional",
+    "office": "Ciudad de México y/o Área Metropolitana",
     "formName": "Nombre",
     "formEmail": "Correo",
     "formMsg": "Mensaje",
